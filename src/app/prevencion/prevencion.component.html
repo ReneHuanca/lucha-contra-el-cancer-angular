@@ -1,0 +1,8 @@
+<div class="container" id="prevencion">  
+    <h2 class="text-info text-center mb-4">PREVENCIÓN Y CAUSAS</h2>
+    <div class="row text-center" >
+      <div class="col-lg-4 wow fadeInLeft" *ngFor="let item of datos">
+          <app-card-prevencion [datoPublicacion]="item"></app-card-prevencion>
+      </div>
+    </div>
+</div>

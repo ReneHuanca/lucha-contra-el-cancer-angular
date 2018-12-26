@@ -1,0 +1,11 @@
+<div class="row wow fadeInLeft centros-medicos" id="centrosMedicos">
+    <H2 class="col-12" style="color:aqua;">
+      <div class="col-12 text-center pb-5">
+        CENTROS MEDICOS
+      </div>
+    </H2>
+      <div class="col-12 col-md-6 col-xl-4 card shadow-xl p-3" style="background: rgba(0,0,0,0.0);" *ngFor="let item of datos">
+        <app-card-centro-medico  [datoPublicacion]="item"></app-card-centro-medico>
+      </div>
+  </div> 
+  

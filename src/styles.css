@@ -1,0 +1,103 @@
+/* You can add global styles to this file, and also import other style files */
+
+/*
+0b032d
+843b62
+f67e7d
+ffb997
+
+#543e5c
+*/
+:root {
+    --color1: #0b032d;
+    --color2: #843b62;
+    --color3: #f67e7d;
+    --color4: #ffb997;
+    --color5: #ffc2e9;
+    --color6: #cca2e1;
+}
+
+
+/*-----------------  html  -----------------*/
+body{
+    
+}
+.slider-imagen{
+    height: 600px;
+    object-fit: cover;
+}
+.card-imagen{
+    
+    object-fit: cover;
+}
+
+
+/*-----------------  contenedores  -----------------*/
+#prevencion, #campanias, #centrosMedicos, #tratamientos{
+    padding-top: 100px;
+}
+#prevencion h2, #campanias h2, #centrosMedicos h2, #tratamientos h2{
+    
+    font-family: 'Oswald', sans-serif;
+}
+/*-----------------  navbar  -----------------*/
+.navbar{
+    background:var(--color1)!important;
+    border-bottom: solid 5px  var(--color3);
+}
+.navbar .navbar-brand{
+    font-family: 'Oswald', sans-serif;
+}
+.navbar .nav-item .nav-link{
+    color: var(--color6);
+    font-family: 'Oswald', sans-serif ;
+}
+.navbar .nav-item .nav-link:hover{
+    color: var(--color4) !important;
+}
+
+
+/*-----------------  centros medicos  -----------------*/
+
+.centros-medicos{
+    background: url('assets/img/h5.jpg') ;
+    background-size: cover;
+}
+
+
+/*-----------------  Modal Registro  -----------------*/
+.modal-header{
+    background: var(--color2);
+}
+.modal-footer{
+    
+}
+
+/*--footer--*/
+footer{
+    background: var(--color1);
+    width: 100%;
+}
+footer div[class="row"]:first-child{
+    border-bottom: solid 1px var(--color4);
+}
+.footer-ult{
+    color: var(--color5);
+}
+footer h5{
+    color: var(--color5);
+}
+footer h3 span{
+    margin-right: 15px;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    box-shadow: 1px 1px 1px white; 
+}
+footer h3 a:hover{
+    text-decoration: none;
+}
+footer .icon-facebook{background: #3b5998;color: white ;}
+footer .icon-twitter{background: #00abf0;color: white ; }
+footer .icon-instagram{background:#000 ;color: white ;}
+footer .icon-youtube{background:#cc181e ;color: white ;}
